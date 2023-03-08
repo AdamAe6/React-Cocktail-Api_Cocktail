@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.principal {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(./component/pic/A.png);
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.test {
+  background-image: url(./component/pic/A.png);
+  background-size: cover;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.li {
+  text-align: center;
+  border: 4px solid black;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Nav {
+  height: 10%;
+  width: 80%;
+  position: absolute;
+  background-image: url(./component/pic/A.png);
+  background-size: cover;
+  left: 10%;
+  border: solid 0.4vh black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.btn {
+  font-size: 3vh;
+}
+
+.img {
+  height: 30%;
+  width: 30%;
+  position: absolute;
+}
+
+.recherche {
+  height: 30%;
+  width: 30%;
+  font-size: xx-large;
+  margin: 2% 0% 2% 30%;
+  border-radius: 50px;
+}
+
+.valider {
+  font-size: xx-large;
+  border-radius: 50px;
+}
+
+.rien {
+  height: 100%;
+  position: absolute;
+  color: red;
+  text-align: center;
+  background-image: url(./component/pic/A.png);
+  background-size: cover;
 }
